@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JWT decoder | DevKit</title>
+<meta name="description" content="Decode a JSON Web Token to read its header and payload, including the expiry time. Runs in your browser, the token is never sent anywhere.">
+<link rel="canonical" href="https://your-domain.com/jwt-decoder/">
+<meta property="og:title" content="JWT decoder | DevKit">
+<meta property="og:description" content="Decode a JSON Web Token to read its header and payload, including the expiry time. Runs in your browser, the token is never sent anywhere.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧰%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body data-tool="jwt">
+<header><div class="wrap nav"><a class="logo" href="/"><span class="mark">{}</span>DevKit</a><a class="t" href="/">All tools</a></div></header>
+<main class="wrap"><a class="back" href="/">← All tools</a>
+<h1 class="th">JWT decoder</h1><p class="sub">Read what is inside a JSON Web Token.</p>
+<div id="tool"></div>
+<section class="doc">
+<h2>How to use it</h2><ol><li>Paste your token, which has three parts separated by dots.</li><li>Click Decode.</li><li>Read the header and payload. If the payload has an exp value, the expiry time is shown.</li></ol>
+<h2>Example</h2><pre>eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiQWRhIn0.signature</pre>
+<h2>Frequently asked questions</h2>
+<details><summary>Does this verify the signature?</summary><p>No. It only decodes the readable parts. Verifying a signature needs the secret or public key and should be done on your server.</p></details>
+<details><summary>Is it safe to paste a token here?</summary><p>Decoding happens in your browser and nothing is uploaded. Still, avoid sharing live tokens with anyone you do not trust.</p></details>
+</section>
+<h2 class="doc" style="margin:0 0 4px;font-size:1.1rem">More tools</h2><div class="more"><a href="/json-formatter/">JSON formatter</a><a href="/xml-formatter/">XML formatter</a><a href="/json-xml-converter/">JSON ⇄ XML converter</a><a href="/yaml-converter/">YAML converter</a><a href="/csv-json-converter/">CSV ⇄ JSON converter</a><a href="/base64-encode-decode/">Base64 encode & decode</a><a href="/url-encoder-decoder/">URL encode & decode</a><a href="/text-diff/">Text diff checker</a></div></main>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does this verify the signature?","acceptedAnswer":{"@type":"Answer","text":"No. It only decodes the readable parts. Verifying a signature needs the secret or public key and should be done on your server."}},{"@type":"Question","name":"Is it safe to paste a token here?","acceptedAnswer":{"@type":"Answer","text":"Decoding happens in your browser and nothing is uploaded. Still, avoid sharing live tokens with anyone you do not trust."}}]}</script>
+<footer><div class="wrap"><p>DevKit runs in your browser. Your data is never uploaded.</p><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/contact/">Contact</a></div></footer>
+<script src="/assets/tools.js"></script>
+</body>
+</html>

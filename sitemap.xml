@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-domain.com/</loc></url>
+  <url><loc>https://your-domain.com/json-formatter/</loc></url>
+  <url><loc>https://your-domain.com/xml-formatter/</loc></url>
+  <url><loc>https://your-domain.com/json-xml-converter/</loc></url>
+  <url><loc>https://your-domain.com/yaml-converter/</loc></url>
+  <url><loc>https://your-domain.com/csv-json-converter/</loc></url>
+  <url><loc>https://your-domain.com/base64-encode-decode/</loc></url>
+  <url><loc>https://your-domain.com/url-encoder-decoder/</loc></url>
+  <url><loc>https://your-domain.com/jwt-decoder/</loc></url>
+  <url><loc>https://your-domain.com/text-diff/</loc></url>
+  <url><loc>https://your-domain.com/about/</loc></url>
+  <url><loc>https://your-domain.com/privacy/</loc></url>
+  <url><loc>https://your-domain.com/contact/</loc></url>
+</urlset>
